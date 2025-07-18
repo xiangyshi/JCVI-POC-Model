@@ -1,0 +1,37 @@
+{
+    "Alpha-B.1.1.7-rbd.pdb": {
+        "lineage": "B.1.1.7",
+        "variant": "Alpha",
+        "pdb_code": "7EDG"
+    },
+    "Beta-B.1.351-rbd.pdb": {
+        "lineage": "B.1.351",
+        "variant": "Beta",
+        "pdb_code": "7LYQ"
+    },
+    "Delta-B.1.617.2-rbd.pdb": {
+        "lineage": "B.1.617.2",
+        "variant": "Delta",
+        "pdb_code": "7V7O"
+    },
+    "Gamma-P.1-rbd.pdb": {
+        "lineage": "P.1",
+        "variant": "Gamma",
+        "pdb_code": "8DLO"
+    },
+    "Omicron-BA.1-rbd.pdb": {
+        "lineage": "BA.1",
+        "variant": "Omicron",
+        "pdb_code": "7QO7"
+    },
+    "Omicron-BA.2.12.1-rbd.pdb": {
+        "lineage": "BA.2.12.1",
+        "variant": "Omicron",
+        "pdb_code": "7XNS"
+    },
+    "Wuhan-A-rbd.pdb": {
+        "lineage": "A",
+        "variant": "Wuhan",
+        "pdb_code": "7CWM"
+    }
+}
