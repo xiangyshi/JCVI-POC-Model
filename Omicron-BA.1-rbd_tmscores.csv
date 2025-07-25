@@ -1,8 +1,0 @@
-target,subject,length1,length2,rmsd,tm_score,maxsub,gdt_ts
-Omicron-BA.1-rbd.pdb,Omicron-BA.1-rbd.pdb,1273,1273,0,1,1,1
-Omicron-BA.1-rbd.pdb,Alpha-B.1.1.7-rbd.pdb,221,223,3.485,0.811,0.6196,0.6379
-Omicron-BA.1-rbd.pdb,Beta-B.1.351-rbd.pdb,221,223,8.63,0.3531,0.0625,0.1805
-Omicron-BA.1-rbd.pdb,Delta-B.1.617.2-rbd.pdb,221,223,9.796,0.3235,0.0627,0.1603
-Omicron-BA.1-rbd.pdb,Gamma-P.1-rbd.pdb,221,223,8.663,0.353,0.0629,0.1783
-Omicron-BA.1-rbd.pdb,Omicron-BA.2.12.1-rbd.pdb,221,223,8.75,0.3394,0.0624,0.1726
-Omicron-BA.1-rbd.pdb,Wuhan-A-rbd.pdb,221,201,8.731,0.3332,0.0724,0.1841

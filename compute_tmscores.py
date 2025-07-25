@@ -48,7 +48,7 @@ def compute_tmscores(target_path: str, folder: str = "rbd-structures"):
             continue
         subject_path = os.path.join(folder, subject)
         # run TM-score
-        cmd = ["./TMscore", target_path, subject_path]
+        cmd = ["./TMalign", target_path, subject_path]
         try:
             proc = subprocess.run(cmd, capture_output=True, text=True, check=True)
             out = proc.stdout
@@ -75,8 +75,9 @@ def compute_tmscores(target_path: str, folder: str = "rbd-structures"):
     print(f"Results saved to {csv_name}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         print("Usage: python compute_tmscores.py path/to/target.pdb", file=sys.stderr)
         sys.exit(1)
     target_file = sys.argv[1]
-    compute_tmscores(target_file)
+    target_folder = sys.argv[2] if len(sys.argv) >= 3 else "rbd-structures"
+    compute_tmscores(target_file, target_folder)
